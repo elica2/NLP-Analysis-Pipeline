@@ -76,13 +76,13 @@ El archivo HTML resultante resume, de forma integrada:
 El script principal `nlp_analyzer.py` orquesta el siguiente flujo:
 
 1. Preprocesamiento de textos (limpieza, normalización, lematización).
-2. Generación de n-gramas (unigramas, bigramas, trigramas) y sus frecuencias.
+2. Generación de n-gramas (bigramas, trigramas) y sus frecuencias.
 3. Creación de wordclouds con paletas personalizadas.
 4. Modelado de tópicos con BERTopic y SentenceTransformers.
 5. Ablación de keywords para encontrar términos exclusivos y representativos por tópico.
 6. Análisis de outliers (tópico -1 de BERTopic).
 7. Reducción de dimensionalidad (UMAP, t-SNE) y visualizaciones 3D de embeddings.
-8. Generación del reporte HTML con tablas, imágenes y gráficas (potencialmente interactivas).
+8. Generación del reporte HTML con tablas, imágenes y gráficas.
 
 ---
 
@@ -126,7 +126,6 @@ Adapta el pipeline de procesamiento dependiendo del idioma seleccionado.
 
 Genera:
 
-- Unigramas
 - Bigramas
 - Trigramas
 
@@ -281,20 +280,4 @@ python nlp_analyzer.py \
 # El archivo reporte_nlp.html se generará en el directorio raíz
 ```
 
----
 
-## 7. Licencia
-
-[Especificar la licencia del proyecto]
-
----
-
-## 8. Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un issue o pull request para sugerencias y mejoras.
-
----
-
-## 9. Contacto
-
-[Información de contacto del autor o equipo]
