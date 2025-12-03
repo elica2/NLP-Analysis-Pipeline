@@ -25,7 +25,7 @@ proyecto_final/
 │   ├── topics.py            # Modelo de tópicos con BERTopic
 │   ├── outliers.py          # Análisis de outliers (tópico -1)
 │   ├── ablation.py          # Ablación de keywords por tópico
-│   └── visualization.py     # Reducción de dimensionalidad y gráficas 2D/3D
+│   └── visualization.py     # Reducción de dimensionalidad y gráficas 3D
 │
 ├── utils/
 │   └── color_palettes.py    # Paletas de color (incluye opciones para daltónicos)
