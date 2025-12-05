@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+plotly
+wordcloud
+scikit-learn
+nltk
+spacy
+bertopic
+sentence-transformers
+umap-learn
+torch
